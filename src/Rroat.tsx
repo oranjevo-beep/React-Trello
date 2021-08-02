@@ -8,7 +8,7 @@ function Rroat() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/React-Trello">
           <Home />
         </Route>
 
