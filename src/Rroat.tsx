@@ -15,7 +15,6 @@ function Rroat() {
         <Route path="/board">
           <Board />
         </Route>
-
         <Route path="*">
           <Error />
         </Route>
