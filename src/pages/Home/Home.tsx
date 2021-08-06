@@ -1,12 +1,6 @@
 import React, { useState } from 'react';
 import { IBoardLink } from '../../common/interfaces/IBoardLink';
 import Board from '../Board/Board';
-const colors = ['f94144', 'f3722c', '43aa8b', '90be6d', 'f8961e', '577590'];
-let randomColor = (arr: string[]) => {
-  let random = Math.floor(Math.random() * arr.length);
-  return random;
-};
-let randomC = `#${colors[randomColor(colors)]}`;
 
 const data = {
   boards: [
@@ -33,11 +27,15 @@ const Home = () => {
   );
 };
 const BoardLink = (props: IBoardLink) => {
-  const [color, setColor] = useState('white');
-  console.log(props);
+  const colors = ['f94144', 'f3722c', '43aa8b', '90be6d', 'f8961e', '577590'];
+  let randomColor = (arr: string[]) => {
+    let random = Math.floor(Math.random() * arr.length);
+    return random;
+  };
+  let randomC = `#${colors[randomColor(colors)]}`;
 
   return (
-    <div className="board-link" style={{ background: `${color}` }}>
+    <div className="board-link" style={{ background: randomC }}>
       <h4>{props.title}</h4>
     </div>
   );
