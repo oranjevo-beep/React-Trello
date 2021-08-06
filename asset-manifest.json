@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Trello/static/css/main.20694894.chunk.css",
-    "main.js": "/React-Trello/static/js/main.c6a2c980.chunk.js",
-    "main.js.map": "/React-Trello/static/js/main.c6a2c980.chunk.js.map",
-    "runtime-main.js": "/React-Trello/static/js/runtime-main.6adbfe8a.js",
-    "runtime-main.js.map": "/React-Trello/static/js/runtime-main.6adbfe8a.js.map",
-    "static/js/2.1f0d6873.chunk.js": "/React-Trello/static/js/2.1f0d6873.chunk.js",
-    "static/js/2.1f0d6873.chunk.js.map": "/React-Trello/static/js/2.1f0d6873.chunk.js.map",
-    "static/js/3.e7207947.chunk.js": "/React-Trello/static/js/3.e7207947.chunk.js",
-    "static/js/3.e7207947.chunk.js.map": "/React-Trello/static/js/3.e7207947.chunk.js.map",
+    "main.css": "/React-Trello/static/css/main.f9be916e.chunk.css",
+    "main.js": "/React-Trello/static/js/main.5df6aea0.chunk.js",
+    "main.js.map": "/React-Trello/static/js/main.5df6aea0.chunk.js.map",
+    "runtime-main.js": "/React-Trello/static/js/runtime-main.c93787b1.js",
+    "runtime-main.js.map": "/React-Trello/static/js/runtime-main.c93787b1.js.map",
+    "static/js/2.3e1ccb1e.chunk.js": "/React-Trello/static/js/2.3e1ccb1e.chunk.js",
+    "static/js/2.3e1ccb1e.chunk.js.map": "/React-Trello/static/js/2.3e1ccb1e.chunk.js.map",
+    "static/js/3.1c4aad27.chunk.js": "/React-Trello/static/js/3.1c4aad27.chunk.js",
+    "static/js/3.1c4aad27.chunk.js.map": "/React-Trello/static/js/3.1c4aad27.chunk.js.map",
     "index.html": "/React-Trello/index.html",
-    "static/css/main.20694894.chunk.css.map": "/React-Trello/static/css/main.20694894.chunk.css.map",
-    "static/js/2.1f0d6873.chunk.js.LICENSE.txt": "/React-Trello/static/js/2.1f0d6873.chunk.js.LICENSE.txt"
+    "static/css/main.f9be916e.chunk.css.map": "/React-Trello/static/css/main.f9be916e.chunk.css.map",
+    "static/js/2.3e1ccb1e.chunk.js.LICENSE.txt": "/React-Trello/static/js/2.3e1ccb1e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6adbfe8a.js",
-    "static/js/2.1f0d6873.chunk.js",
-    "static/css/main.20694894.chunk.css",
-    "static/js/main.c6a2c980.chunk.js"
+    "static/js/runtime-main.c93787b1.js",
+    "static/js/2.3e1ccb1e.chunk.js",
+    "static/css/main.f9be916e.chunk.css",
+    "static/js/main.5df6aea0.chunk.js"
   ]
 }
