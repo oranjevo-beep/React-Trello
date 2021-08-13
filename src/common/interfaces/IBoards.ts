@@ -1,6 +1,6 @@
 import { CSSProperties } from 'react';
 
-export interface IBoardLink {
+export interface IBoards {
   id: number;
   title: string;
 }

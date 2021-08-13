@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { GoArrowLeft } from 'react-icons/go';
-
+import BoardsData from '../../BordsData';
 import List from './components/List/List';
 import './Board.css';
+import { Link, useParams } from 'react-router-dom';
+import { IId } from '../../common/interfaces/IId';
 
 const data = {
   title: 'Моя тестовая доска',
@@ -32,9 +34,32 @@ const data = {
   ],
 };
 
+function ensure<T>(
+  argument: T | undefined | null,
+  message: string = 'This value was promised to be there.'
+): T {
+  if (argument === undefined || argument === null) {
+    throw new TypeError(message);
+  }
+
+  return argument;
+}
+
 const Board = () => {
   const { title, lists } = data;
+  const { id } = useParams<IId>();
+  console.log(id);
 
+  const [btitle, setBtitle] = useState('default name');
+  console.log(BoardsData.boards[0].title);
+
+  useEffect(() => {
+    const newTitle = ensure(
+      BoardsData.boards.find((title) => title.id === parseInt(id))
+    );
+
+    setBtitle(newTitle.title);
+  }, []);
   return (
     <>
       <div className="home">
@@ -44,7 +69,7 @@ const Board = () => {
         </a>
       </div>
       <div className="board">
-        <h2 className="board__title">{title}</h2>
+        <h2 className="board__title">{btitle}</h2>
         <div className="board__list">
           {lists.map((list) => (
             <List key={list.id} title={list.title} cards={list.cards} />

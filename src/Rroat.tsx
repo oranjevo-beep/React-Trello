@@ -12,9 +12,7 @@ function Rroat() {
           <Home />
         </Route>
 
-        <Route path="/board">
-          <Board />
-        </Route>
+        <Route path="/:id" children={<Board />}></Route>
         <Route path="*">
           <Error />
         </Route>
